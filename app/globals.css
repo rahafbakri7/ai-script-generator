@@ -18,6 +18,33 @@
     --foreground: #ededed;
   }
 }
+.glow-purple {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background: rgba(168, 85, 247, 0.2);
+  filter: blur(120px);
+  border-radius: 9999px;
+  top: -200px;
+  left: -200px;
+}
+
+.glow-blue {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: rgba(59, 130, 246, 0.2);
+  filter: blur(120px);
+  border-radius: 9999px;
+  bottom: -200px;
+  right: -200px;
+}
+html, body {
+  height: 100%;
+  background: var(--background);
+  color: var(--foreground);
+}
+
 
 body {
   background: var(--background);
